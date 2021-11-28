@@ -1,0 +1,91 @@
+ @media(max-width: 800px){
+    .header-search,
+    .header-right-box,
+    .header-nav ul{
+        display: none;
+    }
+
+
+    .tell-nav,
+    .he_sh__tablet{
+        display: block;
+    }
+
+    /* ////////////////////////
+                HEADER
+    /////////////////////////// */
+    .header-logo{
+        margin: 0 auto;
+    }
+
+    .header-wr .header-logo img{
+        width: 210px;
+    }
+    .header-box .header-box-content h2 {
+        
+        font-size: 35px;
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+    .header-box .header-box-content a{
+        width: 250px;
+    }
+
+    .header__social .social__link i{
+        font-size: 35px;
+    }
+
+    .header__social{
+        gap:0 10px;
+    } 
+.burger{
+    display: flex;
+}
+    
+     /* ////////////////////////
+                catalog
+    /////////////////////////// */
+
+    .catalog-game .catalog__row__game .catalog__iner__game{
+        max-width: 315px;
+    }
+
+
+
+     /* ////////////////////////
+                STOCK
+    /////////////////////////// */
+    .stock__row__item{
+        flex-wrap: wrap !important;
+    }
+
+    .stock__row__item .stock__iner{
+        margin-top: 16px;
+    }
+
+    .new__stock .stock__row__item .stock__iner{
+        min-width: 100%;
+    }
+
+
+         /* ////////////////////////
+                KVEST
+    /////////////////////////// */
+    .kvest .kvest__title{
+        font-size: 32px;
+    }
+
+    
+         /* ////////////////////////
+                question
+    /////////////////////////// */
+    .all__question .question__title {
+    font-size: 32px;
+    }
+
+    .all__question .question__ul li{
+        font-size: 24px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.425);
+    }
+}

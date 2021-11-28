@@ -1,0 +1,107 @@
+@media(max-width: 600px) {
+    /* /////////////////////
+        HEADER
+    //////////////////////*/
+
+    .new__stock .stock__row__item .stock__iner .stock_iner_img{
+        display: none;
+    }
+
+    .header-wr .header-logo img {
+    width: 150px;
+    }
+
+    .tell-nav{
+        font-size: 16px;
+    }
+
+    .burger{
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        display: flex;
+
+    }
+
+    .he_sh__tablet{
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        line-height: 40px;
+        font-size: 25px;
+    }
+    .header-wrapp{
+        height: 100px;
+    }
+    .header-box .header-box-content h2 {
+        font-size: 30px;
+        text-align: left;
+    }
+    .header-box .header-box-content p{
+        text-align: left;
+        max-width: 80%;
+    }
+    .he_sh__tablet{
+        font-size: 22px;
+    }
+
+    .header__social{
+        right: 20px;
+        bottom: 5px;
+    } 
+    .header__social .social__link i {
+    font-size: 25px;
+    }
+    .new__stock .stock__titles{
+        flex-direction: column;
+    }   
+
+    .new__stock .stock__row__item .stock__iner .stock_iner_info h2{
+        font-size: 20px;
+    }
+    .new__stock .stock__row__item .stock__iner .stock_iner_info p {
+        line-height:19px;
+        margin-top: 10px;
+    }
+
+    .catalog-game {
+        padding: 60px 0;
+    }
+
+    .kvest .kvest__title{
+        font-size: 32px;
+    }
+    .kvest .kvest__row .kvest__iner__box .kvest__info h4{
+        font-size: 20px;
+    }
+    .kvest .kvest__row .kvest__iner__box .kvest__iner__img img{
+        width: 75px;
+    }
+
+    .kvest .kvest__row .kvest__iner__box .kvest__iner__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+    
+    .otBox .otBox-box-row .otBox-block .otzyvAutor img{
+        width: 70%;
+        height: 70%;
+    }
+    .otBox .otBox-box-row .otBox-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .otBox .otBox-box-row .otBox-block .otzyvAutor {
+        grid-column: 1/6;
+    }
+    .footer{
+        padding:30px 10px;
+    }
+
+    .footer-box{
+        margin-top: 20px;
+    }
+}
+
